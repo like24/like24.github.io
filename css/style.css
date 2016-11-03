@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body, .warp, #main {
+  width: 100%;
+  height: 100%; }
+
+*, *:before, *:after {
+  border-sizing: border-box; }
+
+/*----------------warp-------------------*/
+.warp {
+  overflow: hidden; }
+
+#main section * {
+  display: none; }
+
+#main section.active * {
+  display: block; }
+
+/*-------------------section-------------*/
+section {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+  section img {
+    position: absolute; }
+
+.font, .font1, .font2, .font3 {
+  width: 100%;
+  bottom: 0; }
+
+/*------------------------pages---------------*/
+.page1 {
+  background: url(../img/bg_3.jpg) no-repeat;
+  background-size: 100%; }
+
+.page2 {
+  background: url(../img/bg.jpg) no-repeat;
+  background-size: 100%; }
+
+.page3 {
+  background: url(../img/bg_4.jpg) no-repeat;
+  background-size: 100%; }
+
+.page4 {
+  background: url(../img/bg_2.jpg) no-repeat;
+  background-size: 100%; }
+
+.page5 {
+  background: url(../img/bg_1.jpg) no-repeat;
+  background-size: 100%; }
+
+.page6 {
+  background: url(../img/bg.jpg) no-repeat;
+  background-size: 100%; }
+
+.page2 ._logo {
+  width: 100%;
+  top: 35%;
+  left: 0; }
+.page2 .gray-logo {
+  width: 100%;
+  top: 35%;
+  left: 0; }
+.page2 #input {
+  text-align: center;
+  height: 20px;
+  width: 80%;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  left: 10%;
+  top: 60%;
+  position: absolute; }
+  .page2 #input div {
+    background: url(../img/loading.png) repeat; }
+  .page2 #input .loading {
+    -webkit-transition: translateX .5s; }
+
+.page6 .btn {
+  width: 80%;
+  top: 80%;
+  left: 10%; }
+.page6 .logo {
+  width: 90%;
+  top: 15%;
+  z-index: 20; }
+.page6 .logo1 {
+  width: 100%;
+  top: 15%; }
+.page6 .font4 {
+  width: 100%;
+  top: 45%; }
+
+/*# sourceMappingURL=style.css.map */

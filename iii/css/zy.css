@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.box {
+  width: 100%;
+  height: 100%; }
+  .box section {
+    width: 100%;
+    height: 100%;
+    display: none; }
+  .box section.on {
+    display: block; }
+
+/********one*********/
+#one {
+  width: 100%;
+  height: 100%;
+  background: url(../img/bg.jpg);
+  background-size: 100% 100%;
+  position: relative; }
+  #one img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 25%; }
+
+/********two*********/
+#two {
+  width: 100%;
+  height: 100%;
+  background: url(../img/bg_4.jpg);
+  background-size: 100% 100%;
+  position: relative; }
+  #two img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0px; }
+
+/********three*********/
+#three {
+  width: 100%;
+  height: 100%;
+  background: url(../img/bg_3.jpg);
+  background-size: 100% 100%;
+  position: relative; }
+  #three img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0px; }
+
+/********four*********/
+#four {
+  width: 100%;
+  height: 100%;
+  background: url(../img/bg_2.jpg);
+  background-size: 100% 100%;
+  position: relative; }
+  #four img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0px; }
+
+/********five*********/
+#five {
+  width: 100%;
+  height: 100%;
+  background: url(../img/bg_1.jpg);
+  background-size: 100% 100%;
+  position: relative; }
+  #five img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0px; }
+
+/********six*********/
+#six {
+  width: 100%;
+  height: 100%;
+  background: url(../img/bg.jpg);
+  background-size: 100% 100%;
+  position: relative; }
+  #six img {
+    width: 100%;
+    height: auto;
+    position: absolute; }
+  #six .hy {
+    bottom: 0%; }
+  #six .logo {
+    width: 100%;
+    height: auto;
+    top: 10%; }
+  #six .log {
+    top: 10%; }
+  #six .lj {
+    bottom: 10%; }
+
+/*# sourceMappingURL=zy.css.map */
